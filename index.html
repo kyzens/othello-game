@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Othello Game</title>
+  </head>
+  <body>
+    <div id="menu" class="overlay">
+      <div class="popup">
+        <h2>Welcome to Othello!</h2>
+        <p>Choose an option:</p>
+        <button id="btnStartGame" onclick="startGame()">Start Game</button>
+        <button id="btnResetGame" onclick="resetGame()">Reset Game</button>
+      </div>
+    </div>
+
+    <h1>Othello Game</h1>
+    <div id="board"></div>
+    <p id="status">Current player: <span id="currentPlayer">Black</span></p>
+
+    <script src="index.js"></script>
+  </body>
+</html>
